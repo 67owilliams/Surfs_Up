@@ -40,7 +40,7 @@ app = Flask(__name__)
 #return statement will have f-strings as a reference to all of the other routes
 #add the precipitation, stations, tobs, and temp routes into return statement
 def welcome():
-    return
+    return(
     '''
     Welcome to the Climate Analysis API!
     Available Routes:
